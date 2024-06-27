@@ -1,4 +1,4 @@
-package com.image.fakestore.ui.model
+package com.image.fakestore.ui.storeItem.model
 
 import com.google.gson.annotations.SerializedName
 

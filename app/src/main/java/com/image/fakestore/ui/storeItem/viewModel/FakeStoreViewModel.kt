@@ -4,9 +4,9 @@ import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.image.fakestore.ui.model.FakeStoreData
-import com.image.fakestore.ui.repository.FakeStoreRepository
-import com.image.fakestore.ui.viewState.UiState
+import com.image.fakestore.ui.storeItem.model.FakeStoreData
+import com.image.fakestore.ui.storeItem.repository.FakeStoreRepository
+import com.image.fakestore.ui.storeItem.viewState.UiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

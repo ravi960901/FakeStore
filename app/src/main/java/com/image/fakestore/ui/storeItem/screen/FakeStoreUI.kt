@@ -1,4 +1,4 @@
-package com.image.fakestore.ui.screen
+package com.image.fakestore.ui.storeItem.screen
 
 import android.util.Log
 import androidx.compose.animation.AnimatedContent
@@ -37,9 +37,9 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.image.fakestore.R
-import com.image.fakestore.ui.model.FakeStoreData
+import com.image.fakestore.ui.storeItem.model.FakeStoreData
 import com.image.fakestore.ui.storeItem.viewModel.FakeStoreViewModel
-import com.image.fakestore.ui.viewState.UiState
+import com.image.fakestore.ui.storeItem.viewState.UiState
 
 @Composable
 fun FakeStoreUI(viewModel: FakeStoreViewModel) {

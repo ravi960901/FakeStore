@@ -1,7 +1,7 @@
 package com.image.fakestore.apiService
 
 
-import com.image.fakestore.ui.model.FakeStoreData
+import com.image.fakestore.ui.storeItem.model.FakeStoreData
 import retrofit2.http.GET
 
 interface FakeStoreService {

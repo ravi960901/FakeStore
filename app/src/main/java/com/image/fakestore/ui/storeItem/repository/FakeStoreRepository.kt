@@ -1,8 +1,8 @@
-package com.image.fakestore.ui.repository
+package com.image.fakestore.ui.storeItem.repository
 
 import com.image.fakestore.apiService.ApiHelper
 import com.image.fakestore.apiService.FakeStoreService
-import com.image.fakestore.ui.model.FakeStoreData
+import com.image.fakestore.ui.storeItem.model.FakeStoreData
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
