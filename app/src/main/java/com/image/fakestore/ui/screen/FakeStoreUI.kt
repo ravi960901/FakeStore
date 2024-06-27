@@ -38,7 +38,7 @@ import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.image.fakestore.R
 import com.image.fakestore.ui.model.FakeStoreData
-import com.image.fakestore.ui.viewModel.FakeStoreViewModel
+import com.image.fakestore.ui.storeItem.viewModel.FakeStoreViewModel
 import com.image.fakestore.ui.viewState.UiState
 
 @Composable
@@ -49,7 +49,6 @@ fun FakeStoreUI(viewModel: FakeStoreViewModel) {
     AnimatedContent(targetState = viewModel.uiState.value, label = "", transitionSpec = {
         fadeIn(animationSpec = tween(1000)) togetherWith fadeOut(animationSpec = tween(600))
     }) {
-        Log.e("checkUi","  :  $it")
         when (it) {
             // Specifies the mapping between a given FreeTrialUIState and a composable function.
             UiState.StoreData -> StoreItemsList(data,modifier)

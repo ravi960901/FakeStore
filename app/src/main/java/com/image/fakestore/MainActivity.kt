@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.image.fakestore.ui.screen.FakeStoreUI
 import com.image.fakestore.ui.theme.FakeStoreTheme
-import com.image.fakestore.ui.viewModel.FakeStoreViewModel
+import com.image.fakestore.ui.storeItem.viewModel.FakeStoreViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

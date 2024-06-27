@@ -1,4 +1,4 @@
-package com.image.fakestore.ui.viewModel
+package com.image.fakestore.ui.storeItem.viewModel
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
